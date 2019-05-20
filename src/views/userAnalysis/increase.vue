@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <div class="title">
+    <div>
       <h3>新增用户分析</h3>
       <el-date-picker
         v-model="datePickerValue"

@@ -58,7 +58,7 @@ export default {
         15: 'DAU/过去15日活跃用户',
         30: 'DAU/过去30日活跃用户'
       },
-      datePickerValue: [(dateUtils.todayTimestamp() - 30 * 24 * 60 * 60) * 1000, dateUtils.todayTimestamp() * 1000],
+      datePickerValue: [(dateUtils.todayTimestamp() - 30 * 24 * 60 * 60) * 1000, dateUtils.todayTimestamp() * 1000]
     }
   }
 }

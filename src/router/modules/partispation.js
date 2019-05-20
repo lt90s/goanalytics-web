@@ -13,6 +13,12 @@ const partispationRoute = {
   },
   children: [
     {
+      path: 'usageTime',
+      component: () => import('@/views/partispation/usageTime'),
+      name: 'usageTime',
+      meta: { title: '使用时长', noCache: true }
+    },
+    {
       path: 'useDistribution',
       component: () => import('@/views/partispation/useDistribution'),
       name: 'useDistribution',
